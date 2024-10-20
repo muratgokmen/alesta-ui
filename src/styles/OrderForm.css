@@ -1,0 +1,75 @@
+/* src/styles/OrderForm.css */
+.dialog-title {
+    background-color: #1976d2;
+    color: white;
+    position: relative;
+  }
+  
+  .dialog-title h2 {
+    margin: 0;
+    padding: 16px;
+  }
+  
+  .dialog-title .close-button {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: white;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .input-group label {
+    margin-right: 10px;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .input-group input:focus {
+    border: 2px solid #007bff;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .close-button:hover {
+    background-color: #e0e0e0;
+  }
+  

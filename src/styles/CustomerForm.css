@@ -1,0 +1,106 @@
+
+.modal-header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.modal-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 sütunlu grid */
+  gap: 15px;
+  align-items: start; /* Align items at the start */
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"],
+.input-group input[type="email"],
+.input-group input[type="date"],
+.input-group select {
+  width: calc(100% - 40px);
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px; /* Boyutu küçülttük */
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #007bff;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.checkbox-group label {
+  font-size: 14px;
+  color: #333;
+}
+
+.submit-button,
+.close-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; /* Buton boyutları küçültüldü */
+  margin-top: 10px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  justify-self: end; /* Butonu en sağa yaslayın */
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.close-button {
+  background-color: #ccc;
+  color: black;
+  justify-self: start; /* Butonu en sola yaslayın */
+}
+
+.close-button:hover {
+  background-color: #999;
+}
+
+/* Sağ üst köşedeki kapatma butonu */
+.close-button-top {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+}
+
+.close-button-top:hover {
+  color: #333;
+}

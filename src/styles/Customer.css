@@ -1,0 +1,110 @@
+/* src/styles/Customer.css */
+.customer-page {
+  display: flex;
+}
+
+.customer-content {
+  margin-left: 200px; /* Sidebar genişliğinde boşluk bırak */
+  padding: 20px;
+  width: calc(100% - 200px);
+}
+
+.customer-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+.open-modal-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.open-modal-toolbar-button {
+  margin-left: auto; /* Butonu en sağa itmek için */
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px; /* GridToolbar butonları ile aynı hizada görünmesi için */
+}
+
+.open-modal-toolbar-button:hover {
+  background-color: #0056b3;
+}
+
+.open-modal-button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff; /* Beyaz arka plan */
+  border-radius: 10px; /* Köşeleri ovalleştir */
+  overflow: hidden;
+}
+
+table, th, td {
+  border: 1px solid #ddd; /* Daha hafif kenar rengi */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #001aff;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button svg {
+  pointer-events: none; /* İkonların tıklanabilirliğini kaldır */
+}
+
+.export-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.export-button:hover {
+  background-color: #218838;
+}

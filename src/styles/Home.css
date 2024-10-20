@@ -1,0 +1,21 @@
+/* src/styles/Home.css */
+.home-page {
+    display: flex;
+  }
+  
+  .home-content {
+    margin-left: 250px; /* Sidebar genişliğinde boşluk bırak */
+    padding: 20px;
+    width: calc(100% - 250px);
+    text-align: center;
+  }
+  
+  .home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 1.25rem;
+  }
+  
